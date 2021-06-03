@@ -32,12 +32,12 @@
 }
 
 .sec-profile {
-	background: url("../pictures/Artboard 1.png") no-repeat center center;
+	background: url("../pictures/Artboard 1.png") no-repeat center center;/*
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
-  	background-size: cover;
-  	-o-background-size: cover;
-	height: 300px;
+  	background-size: auto;
+  	-o-background-size: cover;*/
+    height: 100vh;      	
 }
 
 .secw {
@@ -50,11 +50,16 @@
   	-moz-background-size: cover;
   	background-size: cover;
   	-o-background-size: cover;
+    min-height: 100vh;
 }
 
 .my_profile {
 	background: rgba(0,0,0,0.6);
 	border-radius: 5px;
+    width: fit-content;
+    padding: 1% 3%;
+    justify-content: center;
+    margin: 50% auto;
 }
 
 .text-contact li {
